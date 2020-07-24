@@ -1,0 +1,26 @@
+.button {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+
+.button.secondary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-colour);
+}
+.list-button {
+  list-style: none;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+/* Section */
+.project-title {
+  color: var(--primary-text-color);
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
