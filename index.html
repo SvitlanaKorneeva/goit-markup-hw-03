@@ -8,13 +8,17 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body class="page">
     <!--Шапка сайта-->
     <header>
-      <nav>
+      <nav class="container">
         <a href="index.html" class="logo"
           >Web <span class="logo-title">Studio</span>
         </a>
@@ -46,346 +50,355 @@
       </section>
 
       <!--Особенности-->
+
       <section class="section">
-        <ul class="features-list">
-          <li>
-            <img
-              src="./images/features/antenna1.svg"
-              alt="антенна"
-              width="70"
-            />
-            <h3 class="section-descriptions">Внимание к деталям</h3>
-            <p>
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <img src="./images/features/clock2.svg" alt="часы" width="70" />
-            <h3 class="section-descriptions">Пунктуальность</h3>
-            <p>
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./images/features/diagram3.svg"
-              alt="диаграмма"
-              width="70"
-            />
-            <h3 class="section-descriptions">Планирование</h3>
-            <p>
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./images/features/astronaut4.svg"
-              alt="астронавт"
-              width="70"
-            />
-            <h3 class="section-descriptions">Современные технологии</h3>
-            <p>
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="features-list list">
+            <li>
+              <img
+                src="./images/features/antenna1.svg"
+                alt="антенна"
+                width="70"
+              />
+              <h3 class="section-descriptions">Внимание к деталям</h3>
+              <p>
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li>
+              <img src="./images/features/clock2.svg" alt="часы" width="70" />
+              <h3 class="section-descriptions">Пунктуальность</h3>
+              <p>
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/features/diagram3.svg"
+                alt="диаграмма"
+                width="70"
+              />
+              <h3 class="section-descriptions">Планирование</h3>
+              <p>
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/features/astronaut4.svg"
+                alt="астронавт"
+                width="70"
+              />
+              <h3 class="section-descriptions">Современные технологии</h3>
+              <p>
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Чем мы занимаемся-->
       <section class="section">
-        <h2 class="section-title">Чем мы занимаемся</h2>
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
 
-        <ul class="work-list">
-          <li>
-            <img
-              src="./images/departments/box1.svg"
-              alt="Десктопные приложения"
-              width="370"
-            />
-            <h3 class="section-descriptions">Десктопные приложения</h3>
-          </li>
+          <ul class="work-list list">
+            <li>
+              <img
+                src="./images/departments/box1.svg"
+                alt="Десктопные приложения"
+                width="370"
+              />
+              <h3 class="section-descriptions">Десктопные приложения</h3>
+            </li>
 
-          <li>
-            <img
-              src="./images/departments/box2.svg"
-              alt="Мобильные приложения"
-              width="370"
-            />
-            <h3 class="section-descriptions">Мобильные приложения</h3>
-          </li>
+            <li>
+              <img
+                src="./images/departments/box2.svg"
+                alt="Мобильные приложения"
+                width="370"
+              />
+              <h3 class="section-descriptions">Мобильные приложения</h3>
+            </li>
 
-          <li>
-            <img
-              src="./images/departments/box3.svg"
-              alt="Дизайнерские решения"
-              width="370"
-            />
-            <h3 class="section-descriptions">Дизайнерские решения</h3>
-          </li>
-        </ul>
+            <li>
+              <img
+                src="./images/departments/box3.svg"
+                alt="Дизайнерские решения"
+                width="370"
+              />
+              <h3 class="section-descriptions">Дизайнерские решения</h3>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--Наша команда-->
       <section class="section">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="team-list">
-          <li>
-            <img
-              src="./images/team/team1.jpg"
-              alt="Николай Кучеренко"
-              width="270"
-            />
-            <h3>Николай Кучеренко</h3>
-            <p>Product Designer</p>
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="team-list list">
+            <li>
+              <img
+                src="./images/team/team1.jpg"
+                alt="Николай Кучеренко"
+                width="270"
+              />
+              <h3>Николай Кучеренко</h3>
+              <p>Product Designer</p>
 
-            <ul>
-              <li>
-                <a href="https://www.instagram.com/">
-                  <img
-                    src="./images/social-links/instagram.svg"
-                    alt="инстаграм"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter/">
-                  <img
-                    src="./images/social-links/twitter.svg"
-                    alt="твиттер"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://facebook.com/">
-                  <img
-                    src="./images/social-links/facebook.svg"
-                    alt="фейсбук"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/">
-                  <img
-                    src="./images/social-links/linkedin.svg"
-                    alt="линкедин"
-                    width="44"
-                  />
-                </a>
-              </li>
-            </ul>
-          </li>
+              <ul>
+                <li>
+                  <a href="https://www.instagram.com/">
+                    <img
+                      src="./images/social-links/instagram.svg"
+                      alt="инстаграм"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter/">
+                    <img
+                      src="./images/social-links/twitter.svg"
+                      alt="твиттер"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://facebook.com/">
+                    <img
+                      src="./images/social-links/facebook.svg"
+                      alt="фейсбук"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://linkedin.com/">
+                    <img
+                      src="./images/social-links/linkedin.svg"
+                      alt="линкедин"
+                      width="44"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
 
-          <li>
-            <img
-              src="./images/team/team2.jpg"
-              alt="Ольга Иванова"
-              width="270"
-            />
-            <h3>Ольга Иванова</h3>
-            <p>Frontend Developer</p>
-            <ul>
-              <li>
-                <a href="https://www.instagram.com/">
-                  <img
-                    src="./images/social-links/instagram.svg"
-                    alt="инстаграм"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter/">
-                  <img
-                    src="./images/social-links/twitter.svg"
-                    alt="твиттер"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://facebook.com/">
-                  <img
-                    src="./images/social-links/facebook.svg"
-                    alt="фейсбук"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/">
-                  <img
-                    src="./images/social-links/linkedin.svg"
-                    alt="линкедин"
-                    width="44"
-                  />
-                </a>
-              </li>
-            </ul>
-          </li>
+            <li>
+              <img
+                src="./images/team/team2.jpg"
+                alt="Ольга Иванова"
+                width="270"
+              />
+              <h3>Ольга Иванова</h3>
+              <p>Frontend Developer</p>
+              <ul>
+                <li>
+                  <a href="https://www.instagram.com/">
+                    <img
+                      src="./images/social-links/instagram.svg"
+                      alt="инстаграм"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter/">
+                    <img
+                      src="./images/social-links/twitter.svg"
+                      alt="твиттер"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://facebook.com/">
+                    <img
+                      src="./images/social-links/facebook.svg"
+                      alt="фейсбук"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://linkedin.com/">
+                    <img
+                      src="./images/social-links/linkedin.svg"
+                      alt="линкедин"
+                      width="44"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
 
-          <li>
-            <img
-              src="./images/team/team3.jpg"
-              alt="Андрей Шевченко"
-              width="270"
-            />
-            <h3>Андрей Шевченко</h3>
-            <p>Marketing</p>
-            <ul>
-              <li>
-                <a href="https://www.instagram.com/">
-                  <img
-                    src="./images/social-links/instagram.svg"
-                    alt="инстаграм"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter/">
-                  <img
-                    src="./images/social-links/twitter.svg"
-                    alt="твиттер"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://facebook.com/">
-                  <img
-                    src="./images/social-links/facebook.svg"
-                    alt="фейсбук"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/">
-                  <img
-                    src="./images/social-links/linkedin.svg"
-                    alt="линкедин"
-                    width="44"
-                  />
-                </a>
-              </li>
-            </ul>
-          </li>
+            <li>
+              <img
+                src="./images/team/team3.jpg"
+                alt="Андрей Шевченко"
+                width="270"
+              />
+              <h3>Андрей Шевченко</h3>
+              <p>Marketing</p>
+              <ul>
+                <li>
+                  <a href="https://www.instagram.com/">
+                    <img
+                      src="./images/social-links/instagram.svg"
+                      alt="инстаграм"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter/">
+                    <img
+                      src="./images/social-links/twitter.svg"
+                      alt="твиттер"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://facebook.com/">
+                    <img
+                      src="./images/social-links/facebook.svg"
+                      alt="фейсбук"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://linkedin.com/">
+                    <img
+                      src="./images/social-links/linkedin.svg"
+                      alt="линкедин"
+                      width="44"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
 
-          <li>
-            <img
-              src="./images/team/team4.jpg"
-              alt="Иван Николаев"
-              width="270"
-            />
-            <h3>Иван Николаев</h3>
-            <p>UI Designer</p>
-            <ul>
-              <li>
-                <a href="https://www.instagram.com/">
-                  <img
-                    src="./images/social-links/instagram.svg"
-                    alt="инстаграм"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter/">
-                  <img
-                    src="./images/social-links/twitter.svg"
-                    alt="твиттер"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://facebook.com/">
-                  <img
-                    src="./images/social-links/facebook.svg"
-                    alt="фейсбук"
-                    width="44"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/">
-                  <img
-                    src="./images/social-links/linkedin.svg"
-                    alt="линкедин"
-                    width="44"
-                  />
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
+            <li>
+              <img
+                src="./images/team/team4.jpg"
+                alt="Иван Николаев"
+                width="270"
+              />
+              <h3>Иван Николаев</h3>
+              <p>UI Designer</p>
+              <ul>
+                <li>
+                  <a href="https://www.instagram.com/">
+                    <img
+                      src="./images/social-links/instagram.svg"
+                      alt="инстаграм"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter/">
+                    <img
+                      src="./images/social-links/twitter.svg"
+                      alt="твиттер"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://facebook.com/">
+                    <img
+                      src="./images/social-links/facebook.svg"
+                      alt="фейсбук"
+                      width="44"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://linkedin.com/">
+                    <img
+                      src="./images/social-links/linkedin.svg"
+                      alt="линкедин"
+                      width="44"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--Наши клиенты-->
       <section class="section">
-        <h2 class="section-title">Постоянные клиенты</h2>
-        <ul>
-          <li>
-            <a href="">
-              <img
-                src="./images/clients/client1.svg"
-                alt="компания1"
-                width="170"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/clients/client2.svg"
-                alt="компания2"
-                width="170"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/clients/client3.svg"
-                alt="компания3"
-                width="170"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/clients/client4.svg"
-                alt="компания4"
-                width="170"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/clients/client5.svg"
-                alt="компания5"
-                width="170"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/clients/client6.svg"
-                alt="компания6"
-                width="170"
-              />
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="section-title">Постоянные клиенты</h2>
+          <ul class="list">
+            <li>
+              <a href="">
+                <img
+                  src="./images/clients/client1.svg"
+                  alt="компания1"
+                  width="170"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/clients/client2.svg"
+                  alt="компания2"
+                  width="170"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/clients/client3.svg"
+                  alt="компания3"
+                  width="170"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/clients/client4.svg"
+                  alt="компания4"
+                  width="170"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/clients/client5.svg"
+                  alt="компания5"
+                  width="170"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/clients/client6.svg"
+                  alt="компания6"
+                  width="170"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--Футер-->
@@ -393,7 +406,7 @@
       <section>
         <h2>Web Studio</h2>
         <address>
-          <ul>
+          <ul class="list">
             <li>
               <a
                 href="https://goo.gl/maps/x4ZXSm37YUsBJoMr6"
@@ -411,7 +424,7 @@
       <section>
         <h2>присоединяйтесь</h2>
 
-        <ul>
+        <ul class="list">
           <li>
             <a href="https://www.instagram.com/">
               <img
