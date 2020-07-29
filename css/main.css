@@ -49,6 +49,11 @@
   }
 
 .button-hero {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
   color: var(--primary-white-color);
   background-color: var(--accent-colour);
 
@@ -57,4 +62,5 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-decoration: none;
+  text-align: center;
 }
