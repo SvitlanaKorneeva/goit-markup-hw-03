@@ -34,6 +34,8 @@ body {
   color: var(--primary-black-color);
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 /* site nav*/
@@ -62,7 +64,6 @@ body {
   color: var(--accent-colour);
 }
 
-
 html {
   box-sizing: border-box;
 }
@@ -71,11 +72,12 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
 
-  .container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

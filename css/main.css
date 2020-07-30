@@ -2,9 +2,16 @@
 
 /* Hero */
 
+.hero {
+  text-align: center;
+  
+
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30;
+
   color: var(--primary-white-color);
-  background-color: #2f303a;
+  
 
   font-weight: 900;
   font-size: 44px;
@@ -50,6 +57,7 @@
 
 .button-hero {
   display: inline-block;
+  border: 1px solid transparent;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
