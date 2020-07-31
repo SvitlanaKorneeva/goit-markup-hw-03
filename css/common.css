@@ -39,9 +39,17 @@ body {
   list-style: none;
 }
 
+/* Main nav */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* site nav*/
 .site-nav {
   display: flex;
+  margin-left: 85px;
 }
 .site-nav .item {
   /*background-color: tomato;*/

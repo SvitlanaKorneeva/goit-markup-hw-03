@@ -53,6 +53,17 @@
 }
 
 /* Features*/
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-list .item {
+  width: 625px;
+  margin: 40px 75px;
+}
+
 .features-list .title {
   margin-top: 0;
   margin-bottom: 0;
@@ -100,4 +111,9 @@
   letter-spacing: 0.06em;
   text-decoration: none;
   text-align: center;
+}
+.button-hero:hover,
+.button-hero:focus {
+  cursor: pointer;
+  color: var(--accent-colour);
 }
