@@ -18,6 +18,29 @@
   text-transform: uppercase;
 }
 
+.button-hero {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-colour);
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-align: center;
+}
+.button-hero:hover,
+.button-hero:focus {
+  cursor: pointer;
+  color: var(--primary-white-color);
+}
+
 /* Section */
 
 .section {
@@ -25,6 +48,8 @@
   padding-bottom: 94px;
   padding-left: 215px;
   padding-right: 215px;
+  
+  
 }
 
 .section.no-padding {
@@ -52,16 +77,25 @@
   text-transform: uppercase;
 }
 
+.p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 /* Features*/
 
-.feature-list {
+.features-list {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
-.feature-list .item {
-  width: 625px;
-  margin: 40px 75px;
+.features-list .item {
+  width: 270px;
+  
+}
+
+.features-list .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .features-list .title {
@@ -74,10 +108,13 @@
 .feature-list p {
   margin-top: 0;
   margin-bottom: 0;
+  color: var(--secondary-text-color);
 }
 
 /* Work */
 .work-list {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 0;
 
@@ -85,8 +122,18 @@
   background-color: beige;
 }
 
+.work-list .items {
+  width: 370px;
+}
+
+.work-list .items:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* Team */
 .team-list {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 0;
 
@@ -94,26 +141,33 @@
   font-size: 16px;
   line-height: 1.18;
 }
-
-.button-hero {
-  display: inline-block;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  padding: 10px 32px;
-  min-width: 200px;
-
-  color: var(--primary-white-color);
-  background-color: var(--accent-colour);
-
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  text-align: center;
+.team-list .names {
+  width: 270px;
 }
-.button-hero:hover,
-.button-hero:focus {
+.team-list .names:not(:last-child) {
+  margin-right: 30px;
+}
+
+.icons-list {
+  display: flex;
+  list-style: none;
+}
+
+.icon:hover,
+.icon:focus {
   cursor: pointer;
   color: var(--accent-colour);
+  background-color: var(--accent-colour);
 }
+
+/* Clients*/
+.client-list {
+  display: flex;
+  
+}
+.client-list .clients {
+  width: 170px;
+}
+
+.client-list .clients:not(:last-child) {
+  margin-right: 30px;
