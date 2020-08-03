@@ -3,6 +3,7 @@
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 6px 22px;
+  margin-right: 8px;
 
   color: var(--primary-text-color);
   background-color: #f5f4fa;
@@ -18,15 +19,15 @@
 .list-button {
   display: flex;
   list-style: none;
-  margin-left: 8px;
   justify-content: center;
+  margin-bottom: 50px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
 }
-.list-button .item:not(:last-child) {
+.list-button .button-item:not(:last-child) {
   margin-right: 8px;
 }
 /* Section */
