@@ -6,7 +6,7 @@
 /* вторичный цвет текста #757575 */
 /* цвет белый #FFFFFF*/
 /* цвет черный #000000*/
-/* цвет фона наша команда #F5F4FA */
+/* вторичный цвет фона #F5F4FA */
 /* цвет фона футера #2F303A*/
 
 :root {
@@ -15,6 +15,8 @@
   --accent-colour: #2196f3;
   --primary-black-color: #000000;
   --primary-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --background-footer-colour: #2f303a;
 }
 body {
   background-color: var(--primary-white-color);
@@ -115,4 +117,27 @@ html {
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
+}
+
+/*Футер*/
+.footer {
+  background-color: var(--background-footer-colour);
+}
+
+.logo-footer {
+  color: var(--primary-white-color);
+}
+
+.footer-list .adress {
+  color: var(--primary-white-color);
+}
+
+.container-footer {
+  display: flex;
+  padding-top: 60px;
+  padding-left: 214px;
+}
+
+.social-container .list {
+  display: flex;
 }

@@ -1,6 +1,8 @@
 /* Hero */
 
 .hero {
+  margin-bottom: 94px;
+  padding: 200px 452px;
   text-align: center;
   background-color: #2f303a;
 }
@@ -44,17 +46,13 @@
 /* Section */
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
-  
-  
+  margin-bottom: 94px;
 }
 
-.section.no-padding {
-  padding-top: 0;
-  padding-bottom: 0;
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--secondary-background-color);
 }
 
 .section-title {
@@ -70,9 +68,10 @@
 }
 
 .section-descriptions {
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 10px;
 
+  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -86,16 +85,21 @@
 .features-list {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .features-list .item {
   width: 270px;
-  
 }
 
 .features-list .item:not(:last-child) {
   margin-right: 30px;
+}
+
+.features-list .picture {
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 102px;
 }
 
 .features-list .title {
@@ -105,10 +109,12 @@
   color: var(--primary-text-color);
 }
 
-.feature-list p {
+.features-text {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--secondary-text-color);
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Work */
@@ -119,7 +125,6 @@
   margin-bottom: 0;
 
   color: var(--primary-white-color);
-  background-color: beige;
 }
 
 .work-list .items {
@@ -128,6 +133,16 @@
 
 .work-list .items:not(:last-child) {
   margin-right: 30px;
+}
+
+.work-text {
+  padding: 27px 0px;
+  margin: 0;
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
+
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Team */
@@ -143,9 +158,31 @@
 }
 .team-list .names {
   width: 270px;
+  background-color: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list .names:not(:last-child) {
   margin-right: 30px;
+}
+
+.team-names {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.team-photo {
+  margin-bottom: 30px;
+}
+
+.team-list p {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 16px;
+  color: var(--secondary-text-color);
 }
 
 .icons-list {
@@ -163,7 +200,6 @@
 /* Clients*/
 .client-list {
   display: flex;
-  
 }
 .client-list .clients {
   width: 170px;
@@ -171,3 +207,4 @@
 
 .client-list .clients:not(:last-child) {
   margin-right: 30px;
+}

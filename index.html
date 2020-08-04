@@ -58,44 +58,48 @@
           <ul class="features-list list">
             <li class="item">
               <img
+                class="picture"
                 src="./images/features/antenna1.svg"
                 alt="антенна"
-                width="70"
               />
               <h3 class="section-descriptions">Внимание к деталям</h3>
-              <p>
+              <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
             <li class="item">
-              <img src="./images/features/clock2.svg" alt="часы" width="70" />
+              <img
+                class="picture"
+                src="./images/features/clock2.svg"
+                alt="часы"
+              />
               <h3 class="section-descriptions">Пунктуальность</h3>
-              <p>
+              <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
             <li class="item">
               <img
+                class="picture"
                 src="./images/features/diagram3.svg"
                 alt="диаграмма"
-                width="70"
               />
               <h3 class="section-descriptions">Планирование</h3>
-              <p>
+              <p class="features-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
             <li class="item">
               <img
+                class="picture"
                 src="./images/features/astronaut4.svg"
                 alt="астронавт"
-                width="70"
               />
               <h3 class="section-descriptions">Современные технологии</h3>
-              <p>
+              <p class="features-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -115,7 +119,7 @@
                 alt="Десктопные приложения"
                 width="370"
               />
-              <h3 class="section-descriptions">Десктопные приложения</h3>
+              <h3 class="work-text">Десктопные приложения</h3>
             </li>
 
             <li class="items">
@@ -124,7 +128,7 @@
                 alt="Мобильные приложения"
                 width="370"
               />
-              <h3 class="section-descriptions">Мобильные приложения</h3>
+              <h3 class="work-text">Мобильные приложения</h3>
             </li>
 
             <li class="items">
@@ -133,24 +137,25 @@
                 alt="Дизайнерские решения"
                 width="370"
               />
-              <h3 class="section-descriptions">Дизайнерские решения</h3>
+              <h3 class="work-text">Дизайнерские решения</h3>
             </li>
           </ul>
         </div>
       </section>
 
       <!--Наша команда-->
-      <section class="section">
+      <section class="section section-team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="names">
               <img
+                class="team-photo"
                 src="./images/team/team1.jpg"
                 alt="Николай Кучеренко"
                 width="270"
               />
-              <h3>Николай Кучеренко</h3>
+              <h3 class="team-names">Николай Кучеренко</h3>
               <p>Product Designer</p>
 
               <ul class="icons-list">
@@ -195,11 +200,12 @@
 
             <li class="names">
               <img
+                class="team-photo"
                 src="./images/team/team2.jpg"
                 alt="Ольга Иванова"
                 width="270"
               />
-              <h3>Ольга Иванова</h3>
+              <h3 class="team-names">Ольга Иванова</h3>
               <p>Frontend Developer</p>
               <ul class="icons-list">
                 <li class="icon">
@@ -243,11 +249,12 @@
 
             <li class="names">
               <img
+                class="team-photo"
                 src="./images/team/team3.jpg"
                 alt="Андрей Шевченко"
                 width="270"
               />
-              <h3>Андрей Шевченко</h3>
+              <h3 class="team-names">Андрей Шевченко</h3>
               <p>Marketing</p>
               <ul class="icons-list">
                 <li class="icon">
@@ -291,11 +298,12 @@
 
             <li class="names">
               <img
+                class="team-photo"
                 src="./images/team/team4.jpg"
                 alt="Иван Николаев"
                 width="270"
               />
-              <h3>Иван Николаев</h3>
+              <h3 class="team-names">Иван Николаев</h3>
               <p>UI Designer</p>
               <ul class="icons-list">
                 <li class="icon">
@@ -341,7 +349,7 @@
       </section>
 
       <!--Наши клиенты-->
-      <section class="section no-padding">
+      <section class="section">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="client-list list">
@@ -403,71 +411,86 @@
         </div>
       </section>
     </main>
+
     <!--Футер-->
-    <footer>
-      <section>
-        <h2>Web Studio</h2>
-        <address>
+    <footer class="footer">
+      <section class="container-footer">
+        /*Футер лого и адреса*/
+
+        <div class="logo-container">
+          <a href="index.html" class="logo"
+            >Web <span class="logo-footer">Studio</span>
+          </a>
+          <address>
+            <ul class="footer-list list">
+              <li class="adress">
+                <a
+                  href="https://goo.gl/maps/x4ZXSm37YUsBJoMr6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="fotter-contacts">
+                <a href="mailto:info@example.com">info@example.com</a>
+              </li>
+              <li class="fotter-contacts">
+                <a href="tel:+380991111111">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        /*Футер социальные сети*/
+
+        <div class="social-container">
+          <h2>присоединяйтесь</h2>
+
           <ul class="list">
             <li>
-              <a
-                href="https://goo.gl/maps/x4ZXSm37YUsBJoMr6"
-                target="_blank"
-                rel="noopener noreferrer"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+              <a href="https://www.instagram.com/">
+                <img
+                  src="./images/social-links/instagram.svg"
+                  alt="инстаграм"
+                  width="44"
+                />
+              </a>
             </li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <li>
+              <a href="https://twitter/">
+                <img
+                  src="./images/social-links/twitter.svg"
+                  alt="твиттер"
+                  width="44"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://facebook.com/">
+                <img
+                  src="./images/social-links/facebook.svg"
+                  alt="фейсбук"
+                  width="44"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/">
+                <img
+                  src="./images/social-links/linkedin.svg"
+                  alt="линкедин"
+                  width="44"
+                />
+              </a>
+            </li>
           </ul>
-        </address>
-      </section>
+        </div>
 
-      <section>
-        <h2>присоединяйтесь</h2>
-
-        <ul class="list">
-          <li>
-            <a href="https://www.instagram.com/">
-              <img
-                src="./images/social-links/instagram.svg"
-                alt="инстаграм"
-                width="44"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter/">
-              <img
-                src="./images/social-links/twitter.svg"
-                alt="твиттер"
-                width="44"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="https://facebook.com/">
-              <img
-                src="./images/social-links/facebook.svg"
-                alt="фейсбук"
-                width="44"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/">
-              <img
-                src="./images/social-links/linkedin.svg"
-                alt="линкедин"
-                width="44"
-              />
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Подпишитесь на рассылку</h2>
-        <button>Подписаться</button>
+        /*Футер подписка*/
+        <div class="assign-container">
+          <h2>Подпишитесь на рассылку</h2>
+          <button>Подписаться</button>
+        </div>
       </section>
     </footer>
   </body>
