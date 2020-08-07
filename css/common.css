@@ -123,21 +123,60 @@ html {
 .footer {
   background-color: var(--background-footer-colour);
 }
-
-.logo-footer {
-  color: var(--primary-white-color);
-}
-
-.footer-list .adress {
-  color: var(--primary-white-color);
-}
-
 .container-footer {
   display: flex;
+}
+
+.logo-footer {
+  width: 270px;
   padding-top: 60px;
-  padding-left: 214px;
+  padding-bottom: 60px;
+  margin-right: 30px;
+}
+.logo-item {
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+
+.adress {
+  color: var(--primary-white-color);
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 9px;
+}
+
+.fotter-contacts {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer-logo-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.social-container {
+  padding-top: 72px;
+  margin-right: 30px;
+  width: 270px;
 }
 
 .social-container .list {
   display: flex;
+}
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-content {
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.assign-container {
+  margin-top: 72px;
 }

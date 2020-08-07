@@ -46,12 +46,16 @@
 /* Section */
 
 .section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.no-padding {
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .section-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--secondary-background-color);
 }
 
