@@ -1,15 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* цвет белый #FFFFFF*/
 /* цвет черный #000000*/
-/* цвет фона наша команда #F5F4FA */
+/* вторичный цвет фона #F5F4FA */
 /* цвет фона футера #2F303A*/
+
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-colour: #2196f3;
   --primary-black-color: #000000;
   --primary-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --background-footer-colour: #2f303a;
 }
 body {
   background-color: var(--primary-white-color);
@@ -110,4 +117,66 @@ html {
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
+}
+
+/*Футер*/
+.footer {
+  background-color: var(--background-footer-colour);
+}
+.container-footer {
+  display: flex;
+}
+
+.logo-footer {
+  width: 270px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-right: 30px;
+}
+.logo-item {
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+
+.adress {
+  color: var(--primary-white-color);
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 9px;
+}
+
+.fotter-contacts {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer-logo-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.social-container {
+  padding-top: 72px;
+  margin-right: 30px;
+  width: 270px;
+}
+
+.social-container .list {
+  display: flex;
+}
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-content {
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.assign-container {
+  margin-top: 72px;
 }
