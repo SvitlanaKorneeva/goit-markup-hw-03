@@ -1,15 +1,15 @@
 /* Hero */
 
 .hero {
-  margin-bottom: 94px;
-  padding: 200px 452px;
   text-align: center;
   background-color: #2f303a;
+  height: 600px;
 }
 
 .hero-title {
   margin-top: 0;
-  margin-bottom: 30;
+  margin-bottom: 30px;
+  padding-top: 200px;
 
   color: var(--primary-white-color);
 
